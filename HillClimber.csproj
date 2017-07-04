@@ -64,10 +64,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CoinPicker.cs" />
+    <Compile Include="Assets\Scripts\Login\LoginChecker.cs" />
+    <Compile Include="Assets\Scripts\Login\LoginEvent.cs" />
+    <Compile Include="Assets\Scripts\RemainingTimeCalculator.cs" />
+    <Compile Include="Assets\Scripts\ScoreRetriever.cs" />
+    <Compile Include="Assets\Scripts\ScoreUpdate.cs" />
+    <Compile Include="Assets\Scripts\TextMove.cs" />
+    <Compile Include="Assets\Scripts\UIManager.cs" />
     <Compile Include="Assets\Scripts\buttonClicks.cs" />
     <Compile Include="Assets\Scripts\cameraFollow.cs" />
     <Compile Include="Assets\Scripts\playerController.cs" />
-    <Compile Include="Assets\TextMove.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
