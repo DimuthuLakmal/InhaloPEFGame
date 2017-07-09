@@ -52,7 +52,6 @@ public class UIManager : MonoBehaviour {
     public void LevelBackButton()
     {
         Instantiate(scoreUpdater, transform.position, transform.rotation);
-        Application.LoadLevel("Menu");
     }
 
     // Update is called once per frame

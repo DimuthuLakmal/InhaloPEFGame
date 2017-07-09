@@ -31,9 +31,11 @@ public class ScoreUpdate : MonoBehaviour
         if (www.error == null)
         {
             Debug.Log("WWW Ok!: " + www.data);
+            Application.LoadLevel("Menu");
         }
         else {
             Debug.Log("WWW Error: " + www.error);
+            Application.LoadLevel("Menu");
         }
     }
 
